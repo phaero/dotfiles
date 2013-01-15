@@ -1,0 +1,7 @@
+[user]
+	name = Johan Segolsson
+	email = johan.segolsson@gmail.com
+[alias]
+	st = status
+[color]
+	ui = auto

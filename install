@@ -4,3 +4,8 @@ i3="$HOME/.i3"
 if [ ! -e $i3 ]; then
   ln -s $HOME/p/dotfiles/i3 $i3
 fi
+
+gitconfig="$HOME/.gitconfig"
+if [ ! -e $gitconfig ]; then
+  ln -s $HOME/p/dotfiles/gitconfig $gitconfig
+fi
