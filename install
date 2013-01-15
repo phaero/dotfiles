@@ -1,0 +1,6 @@
+#!/bin/sh
+
+i3="$HOME/.i3"
+if [ ! -e $i3 ]; then
+  ln -s $HOME/p/dotfiles/i3 $i3
+fi
